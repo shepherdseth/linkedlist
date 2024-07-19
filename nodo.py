@@ -22,8 +22,8 @@ class LinkedList:
 # El método insertar agrega una tarea a la lista enlazada tomando como argumentos una instancia de Node...
 # con su nombre y descripción (que a su vez la toma de una instancia de Tarea).
 
-    def insert(self, tarea):
-        new_node = Node(tarea)
+    def insert(self, new_tarea):
+        new_node = Node(new_tarea)
         if self.head is None:  # Se verifica si la lista está vacía,
             # En cuyo caso el nuevo nodo será cabecera.
             self.head = new_node
